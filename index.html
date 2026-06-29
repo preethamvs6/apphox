@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chess Board</title>
+    <style>
+        .board{
+            width:320px;
+            height:320px;
+            border:2px solid black;
+        }
+
+        .box{
+            width:40px;
+            height:40px;
+            float:left;
+            background:white;
+        }
+
+        .box:nth-child(odd),
+        .box:nth-child(even){
+        }
+
+        .box:nth-child(16n+2),
+        .box:nth-child(16n+4),
+        .box:nth-child(16n+6),
+        .box:nth-child(16n+8),       
+        .box:nth-child(16n+9),
+        .box:nth-child(16n+11),
+        .box:nth-child(16n+13),
+        .box:nth-child(16n+15){ 
+            background:black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="board">
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+    <div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+</div>
+
+</body>
+</html>
